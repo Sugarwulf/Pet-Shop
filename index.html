@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="petShopApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-controller = "PetListController as controller">
+
+    <h1>Pet Shop</h1>
+    <table border ="1">
+      <caption>Available Dogs</caption>
+      <tr>
+        <th>Name</th>
+        <th>Image</th>
+      </tr>
+      <tr ng-repeat="pet in controller.dogs">
+      <td>{{pet.name}}</td>
+      <td><img height="100" width="100" ng-src="{{pet.image}}"></td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>Available Bunnies</caption>
+      <tr>
+        <th>Name</th>
+        <th>Image</th>
+      </tr>
+      <tr ng-repeat="pet in controller.bunnies">
+        <td>{{pet.name}}</td>
+        <td><img height="100" width="100" ng-src="{{pet.image}}"></td>
+      </tr>
+    </table>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="ngApp/app.js"></script>
+    <script src="ngApp/controller.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+var petShopApp;
+(function (petShopApp) {
+    angular.module("petShopApp", []);
+})(petShopApp || (petShopApp = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLElBQVUsVUFBVSxDQUVuQjtBQUZELFdBQVUsVUFBVTtJQUNsQixPQUFPLENBQUMsTUFBTSxDQUFDLFlBQVksRUFBRSxFQUFFLENBQUMsQ0FBQztBQUNuQyxDQUFDLEVBRlMsVUFBVSxLQUFWLFVBQVUsUUFFbkIiLCJzb3VyY2VzQ29udGVudCI6WyJuYW1lc3BhY2UgcGV0U2hvcEFwcCB7XG4gIGFuZ3VsYXIubW9kdWxlKFwicGV0U2hvcEFwcFwiLCBbXSk7XG59XG4iXX0=

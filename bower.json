@@ -1,0 +1,18 @@
+{
+  "name": "y",
+  "homepage": "n",
+  "authors": [
+    "Reggie Bingham <reggiebing11@gmail.com>"
+  ],
+  "description": "Angular Practice",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
